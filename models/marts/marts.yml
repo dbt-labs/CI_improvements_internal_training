@@ -1,9 +1,5 @@
 
 models:
   - name: dim_customers
-    access: public
 
   - name: fct_orders
-    access: public
-    group: finance
-
