@@ -1,0 +1,14 @@
+models:
+  - name: stg_customers
+    columns:
+    - name: last_name
+    - name: customer_id
+    - name: first_name
+
+  - name: stg_orders
+    columns:
+    - name: customer_id
+    - name: order_id
+    - name: order_date
+    - name: order_status
+
