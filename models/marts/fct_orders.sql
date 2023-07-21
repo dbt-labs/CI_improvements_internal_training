@@ -21,8 +21,5 @@ final as (
         orders.order_id,
 
 
-    from orders
-    left join order_payments using (order_id)
-)
 
 select * from final
