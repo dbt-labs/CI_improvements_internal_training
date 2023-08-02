@@ -28,8 +28,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
-# In this example config, we tell dbt to build all models in the example/ directory
-# as tables. These settings can be overridden in the individual model files
+# In this example config, we tell dbt to build all models in the marts/ directory
+# as tables and all models in the staging/ direcxtory as views. 
+# These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
   my_new_project:
